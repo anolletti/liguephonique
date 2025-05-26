@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useParams,
+} from "react-router-dom";
+import BookThumbnail from "./components/BookThumbnail";
+import MainPage from "./pages/MainPage";
+import BookPage from "./pages/Book";
+
+function BookRoute() {
+  const { sound } = useParams();
+
+  return (
+    <BookThumbnail title="éclaira" image="/images/sample.jpg" sound={sound} />
+  );
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/phoneme/:sound" element={<BookPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
