@@ -22,7 +22,11 @@ export default function BookThumbnail({ title, image, sound }) {
   return (
     <Link to={`/phoneme/${sound}`}>
       <div role="button" className="d-flex flex-column cursor-pointer card">
-        <img className="book-title-img" src={image} alt={title} />
+        <img
+          className="book-title-img"
+          src={`${process.env.PUBLIC_URL}/${image}`}
+          alt={title}
+        />
         <h3 className="book-title py-2 m-0 fw-light text-center">
           {highlightedTitle}
         </h3>

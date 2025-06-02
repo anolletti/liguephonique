@@ -1,0 +1,28 @@
+.booklet-print {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sheet {
+  display: flex;
+  width: 100%;
+  page-break-after: always;
+}
+
+.page {
+  width: 50%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+.page img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.page p {
+  font-size: 16px;
+}

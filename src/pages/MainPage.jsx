@@ -13,7 +13,7 @@ export default function MainPage() {
     <div>
       <div className="text-center">
         <img
-          src="images/ligue_phonique_logo.png"
+          src={`${process.env.PUBLIC_URL}/images/ligue_phonique_logo.png`}
           className="App-logo"
           alt="logo"
         />
