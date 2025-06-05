@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/liguephonique/static/css/main.240e7908.css",
-    "main.js": "/liguephonique/static/js/main.f26f05c5.js",
+    "main.js": "/liguephonique/static/js/main.a1299f5a.js",
     "static/js/453.4c6d9e38.chunk.js": "/liguephonique/static/js/453.4c6d9e38.chunk.js",
     "static/media/bootstrap-icons.woff?": "/liguephonique/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/liguephonique/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/liguephonique/index.html",
     "main.240e7908.css.map": "/liguephonique/static/css/main.240e7908.css.map",
-    "main.f26f05c5.js.map": "/liguephonique/static/js/main.f26f05c5.js.map",
+    "main.a1299f5a.js.map": "/liguephonique/static/js/main.a1299f5a.js.map",
     "453.4c6d9e38.chunk.js.map": "/liguephonique/static/js/453.4c6d9e38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.240e7908.css",
-    "static/js/main.f26f05c5.js"
+    "static/js/main.a1299f5a.js"
   ]
 }
