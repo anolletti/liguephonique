@@ -2,16 +2,16 @@ export const books = {
   é: {
     pages: [
       {
-        text: "Agente *É%claira",
+        text: "Agente *É%cl*ai%ra",
       },
       {
-        text: "Lundi, Agente *É%claira va à l'*é%cole pour aid*er% les *é%lèves à parl*er% français.",
+        text: "Lundi, Agente *É%cl*ai%ra va à l'*é%cole pour aid*er% les *é%lèves à parl*er% français.",
       },
       {
-        text: "Mardi, Agente *É%claira nettoie la ville avec son rayon d'*é%nergie.",
+        text: "Mardi, Agente *É%cl*ai%ra nettoie la ville avec son rayon d'*é%nergie.",
       },
       {
-        text: "Mercredi, Agente *É%claira lit un livre sur l'*é%t*é% avec son amie Val*é%rie.",
+        text: "Mercredi, Agente *É%cl*ai%ra lit un livre sur l'*é%t*é% avec son amie Val*é%rie.",
       },
       {
         text: "Jeudi, elle pr*é%pare un bon d*é%jeuner pour s*es% amis super-h*é%ros.",
